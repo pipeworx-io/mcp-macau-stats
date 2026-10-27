@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/macau-stats",
   "title": "Macau Stats",
-  "description": "Macau Statistics MCP — DSEC (Direcção dos Serviços de Estatística e Censos",
-  "version": "0.1.2",
+  "description": "Macau Statistics MCP — DSEC (Direcção dos Serviços de Estatística e Censos 澳門統計暨普查局 / Serviços de…",
+  "version": "0.1.3",
   "websiteUrl": "https://pipeworx.io/packs/macau-stats",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-macau-stats",
