@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-macau-stats",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Macau Statistics MCP — DSEC (Direcção dos Serviços de Estatística e Censos 澳門統計暨普查局 / Serviços de Estatística e Censos de Macau) key indicators.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-macau-stats": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "macau-stats"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-macau-stats.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/macau-stats",
   "pipeworx": {
-    "sourceHash": "v1-fd3bd9a39b98302eeca70566ea50414f3c0d969859283871db29f4335562c521",
-    "sourceCommit": "33741fe6d9ba71856e73fa683c73572d1ddf2e93"
+    "mode": "gateway",
+    "slug": "macau-stats",
+    "gatewaySlug": "macau-stats",
+    "sourceHash": "v1-439b1987b68dfba87d2eccbefb4beca74e2f49d0ee344c1261f8aafd2a12b517",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
