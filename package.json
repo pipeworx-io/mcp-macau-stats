@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-macau-stats",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Macau Statistics MCP — DSEC (Direcção dos Serviços de Estatística e Censos 澳門統計暨普查局 / Serviços de Estatística e Censos de Macau) key indicators.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "macau-stats",
     "gatewaySlug": "macau-stats",
-    "sourceHash": "v1-439b1987b68dfba87d2eccbefb4beca74e2f49d0ee344c1261f8aafd2a12b517",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-be93d56ca4c36798758690a808cccea7c1cbb51ca2ebeda8e3f2298488085aa0",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
